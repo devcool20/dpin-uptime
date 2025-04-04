@@ -12,9 +12,12 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "db": "file:",
     "prisma": "^6.5.0"
   },
   "prisma": {
     "seed": "./prisma/seed.ts"
-  }
+  },
+  "private": true
 }

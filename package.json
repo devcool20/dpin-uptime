@@ -22,6 +22,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "dpin-uptime": "file:",
     "prisma": "^6.5.0"
   }
 }
